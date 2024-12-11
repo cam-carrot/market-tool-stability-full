@@ -1,4 +1,4 @@
-# Market Analysis Tool
+# Market Tool Stability Analysis
 
 Steps to run analysis with each strategy.
 
