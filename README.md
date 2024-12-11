@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ## Run Cluster Strategy
 ```bash
 # Run analysis with cluster strategy
-python run_analysis.py --strategy cluster
+python run_analysis.py --strategy cluster --max-workers 12
 
 # View results
 cat analysis_results/cluster_results.csv
@@ -20,7 +20,7 @@ cat analysis_results/cluster_results.csv
 ## Run Geographic Strategy
 ```bash
 # Run analysis with geographic strategy
-python run_analysis.py --strategy geographic
+python run_analysis.py --strategy geographic --max-workers 12
 
 # View results
 cat analysis_results/geographic_results.csv
@@ -29,7 +29,7 @@ cat analysis_results/geographic_results.csv
 ## Run Benchmark City Strategy
 ```bash
 # Run analysis with benchmark strategy
-python run_analysis.py --strategy benchmark
+python run_analysis.py --strategy benchmark --max-workers 12
 
 # View results
 cat analysis_results/benchmark_results.csv
