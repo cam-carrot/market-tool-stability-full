@@ -1,0 +1,36 @@
+Market Stability Analysis Report
+==============================
+
+Analysis Strategy: Geographic Region Analysis
+Strategy Description: Analyzes markets by comparing to all cities within 250 miles to establish regional benchmarks, then scores opportunities based on local market dynamics.
+
+Summary Statistics:
+-----------------
+Total cities analyzed: 1525
+Average CV: 0.059
+
+Stability Ratings Distribution:
+stability_rating
+Excellent    1394
+Unstable       66
+Good           36
+Fair           18
+Poor           11
+
+Most Stable Cities:
+-----------------
+        city_state  coefficient_of_variation stability_rating
+0  los angeles, ca                       0.0        Excellent
+1      chicago, il                       0.0        Excellent
+2        miami, fl                       0.0        Excellent
+4       dallas, tx                       0.0        Excellent
+5      atlanta, ga                       0.0        Excellent
+
+Least Stable Cities:
+-----------------
+           city_state  coefficient_of_variation stability_rating
+7         detroit, mi                  1.732051         Unstable
+22   indianapolis, in                  1.732051         Unstable
+35        memphis, tn                  1.732051         Unstable
+36  oklahoma city, ok                  1.732051         Unstable
+42          omaha, ne                  1.732051         Unstable

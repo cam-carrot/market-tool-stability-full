@@ -1,0 +1,36 @@
+Market Stability Analysis Report
+==============================
+
+Analysis Strategy: Benchmark City Analysis
+Strategy Description: Analyzes markets by comparing to the highest performing city within 250 miles. This provides a real-world benchmark for performance potential in the geographic region.
+
+Summary Statistics:
+-----------------
+Total cities analyzed: 2001
+Average CV: 0.026
+
+Stability Ratings Distribution:
+stability_rating
+Excellent    1861
+Good           77
+Unstable       24
+Fair           24
+Poor           15
+
+Most Stable Cities:
+-----------------
+        city_state  coefficient_of_variation stability_rating
+0     new york, ny                       0.0        Excellent
+1  los angeles, ca                       0.0        Excellent
+2      chicago, il                       0.0        Excellent
+3        miami, fl                       0.0        Excellent
+5       dallas, tx                       0.0        Excellent
+
+Least Stable Cities:
+-----------------
+           city_state  coefficient_of_variation stability_rating
+33    kansas city, mo                  1.732051         Unstable
+1225  grants pass, or                  1.313135         Unstable
+18         denver, co                  1.000856         Unstable
+1483    kaysville, ut                  0.910426         Unstable
+1228          roy, ut                  0.759602         Unstable

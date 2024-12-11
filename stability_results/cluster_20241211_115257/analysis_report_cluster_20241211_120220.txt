@@ -1,0 +1,36 @@
+Market Stability Analysis Report
+==============================
+
+Analysis Strategy: Cluster-Based Analysis
+Strategy Description: Analyzes markets by comparing cities within demographic clusters. Performance is measured relative to cluster averages, providing context-aware scoring that accounts for demographic similarities.
+
+Summary Statistics:
+-----------------
+Total cities analyzed: 2043
+Average CV: 0.037
+
+Stability Ratings Distribution:
+stability_rating
+Excellent    1861
+Good          114
+Unstable       28
+Fair           27
+Poor           13
+
+Most Stable Cities:
+-----------------
+        city_state  coefficient_of_variation stability_rating
+0     new york, ny                       0.0        Excellent
+1  los angeles, ca                       0.0        Excellent
+2      chicago, il                       0.0        Excellent
+3        miami, fl                       0.0        Excellent
+5       dallas, tx                       0.0        Excellent
+
+Least Stable Cities:
+-----------------
+            city_state  coefficient_of_variation stability_rating
+31    indianapolis, in                  1.732051         Unstable
+39       charlotte, nc                  1.732051         Unstable
+538         muncie, in                  1.732051         Unstable
+1483    petersburg, va                  1.732051         Unstable
+4          houston, tx                  1.732051         Unstable
